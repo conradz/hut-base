@@ -18,6 +18,8 @@
   var-font-size-h4: 1.25em;
   var-font-size-h5: 1em;
   var-font-size-h6: 0.85em;
+  /* Color for <hr> element */
+  var-hr-color: #CCC;
 }
 
 /* Basic layout styles */
@@ -46,7 +48,7 @@ body {
   overflow: auto;
 }
 
-/* Element definitions, taken from normalize.css */
+/* Element definitions for HTML5 elements, taken from normalize.css */
 
 article,
 aside,
@@ -69,7 +71,7 @@ video {
   display: inline-block;
 }
 
-/* Fonts and other typography settings */
+/* Fonts and other typographical settings */
 
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -117,8 +119,31 @@ p {
   margin: 0 0 10px 0;
 }
 
+hr {
+  border: 0;
+  border-top: 1px solid #CCC;
+  height: 0;
+}
+
+/* Basic list styles */
+
+ul,
+ol {
+  margin: 0;
+  padding: 0 0 0 40px;
+}
+
 .container {
   padding: 10px 20px;
   margin: 0 auto;
   max-width: 600px;
+}
+
+.example {
+  padding: 0 10px;
+  border: 1px solid #CCC;
+  background-color: #F3F3F3;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
 }
