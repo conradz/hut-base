@@ -1,0 +1,124 @@
+/*
+ * Default base settings
+ * Many of these settings are from Bootstrap (https://github.com/twbs/bootstrap)
+ */
+
+:root {
+  /* Font settings for body */
+  var-font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  var-font-size-base: 16px;
+  var-line-height-base: 1.5;
+  /* Font settings for headings */
+  var-font-family-heading: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  var-line-height-heading: 1.2;
+  var-font-weight-heading: 500;
+  var-font-size-h1: 2.6em;
+  var-font-size-h2: 2.15em;
+  var-font-size-h3: 1.70em;
+  var-font-size-h4: 1.25em;
+  var-font-size-h5: 1em;
+  var-font-size-h6: 0.85em;
+}
+
+/* Basic layout styles */
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Root and body element fill whole window and have no margin */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Enable scroll on body element */
+
+body {
+  overflow: auto;
+}
+
+/* Element definitions, taken from normalize.css */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/* Fonts and other typography settings */
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 20px 0 10px 0;
+}
+
+h1 {
+  font-size: 2.6em;
+}
+
+h2 {
+  font-size: 2.15em;
+}
+
+h3 {
+  font-size: 1.70em;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.85em;
+}
+
+p {
+  margin: 0 0 10px 0;
+}
+
+.container {
+  padding: 10px 20px;
+  margin: 0 auto;
+  max-width: 600px;
+}
