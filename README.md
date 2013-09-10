@@ -2,6 +2,8 @@
 
 Base styles for HTML UI Toolkit projects.
 
+[See example](http://conradz.github.io/hut-base/)
+
 This project defines basic styles. These styles are designed to be overriden by
 your project if you do not want the default styles.
 
