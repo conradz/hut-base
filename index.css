@@ -1,4 +1,5 @@
-@import "./variables";
-@import "./layout";
-@import "./elements";
-@import "./type";
+@import "./styles/variables";
+@import "./styles/layout";
+@import "./styles/elements";
+@import "./styles/type";
+@import "./styles/lists";

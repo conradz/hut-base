@@ -19,4 +19,7 @@
     var-font-size-h4: 1.25em;
     var-font-size-h5: 1em;
     var-font-size-h6: 0.85em;
+
+    /* Color for <hr> element */
+    var-hr-color: #CCC;
 }

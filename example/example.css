@@ -5,3 +5,12 @@
     margin: 0 auto;
     max-width: 600px;
 }
+
+.example {
+    padding: 0 10px;
+    border: 1px solid #CCC;
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
