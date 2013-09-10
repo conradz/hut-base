@@ -1,0 +1,29 @@
+{
+  "name": "hut-base",
+  "version": "0.0.0",
+  "description": "Base styles for HTML UI Toolkit",
+  "style": "index.css",
+  "scripts": {
+    "serve": "hut-build serve",
+    "build": "hut-build build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conradz/hut-base.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "style",
+    "ui",
+    "hut"
+  ],
+  "author": "Conrad Zimmerman <me@conradz.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/conradz/hut-base/issues"
+  },
+  "devDependencies": {
+    "hut-build": "~0.1.2"
+  }
+}

@@ -1,0 +1,22 @@
+/*
+ * Default base settings
+ * Many of these settings are from Bootstrap (https://github.com/twbs/bootstrap)
+ */
+
+:root {
+    /* Font settings for body */
+    var-font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    var-font-size-base: 16px;
+    var-line-height-base: 1.5;
+
+    /* Font settings for headings */
+    var-font-family-heading: var(font-family-base);
+    var-line-height-heading: 1.2;
+    var-font-weight-heading: 500;
+    var-font-size-h1: 2.6em;
+    var-font-size-h2: 2.15em;
+    var-font-size-h3: 1.70em;
+    var-font-size-h4: 1.25em;
+    var-font-size-h5: 1em;
+    var-font-size-h6: 0.85em;
+}
