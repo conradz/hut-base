@@ -4,7 +4,7 @@
   "description": "Base styles for HTML UI Toolkit",
   "style": "index.css",
   "scripts": {
-    "serve": "hut-build serve",
+    "start": "hut-build serve",
     "build": "hut-build build"
   },
   "repository": {
