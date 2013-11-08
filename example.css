@@ -39,20 +39,20 @@
   box-sizing: border-box;
 }
 
-/* Root and body element fill whole window and have no margin */
-
 html,
 body {
-  width: 100%;
-  height: 100%;
   margin: 0;
   padding: 0;
 }
 
-/* Enable scroll on body element */
+html {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
 
 body {
-  overflow: auto;
+  overflow: hidden;
 }
 
 /* Element definitions for HTML5 elements, taken from normalize.css */
@@ -149,18 +149,20 @@ button {
   transition: background-color 0.3s;
 }
 
-button:hover {
+button:hover,
+button.hover {
   background-color: #0FC3F0;
 }
 
-button:active {
+button:active,
+button.active {
   background-color: #007A99;
 }
 
-.container {
+body {
   padding: 0 20px 10px 20px;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 720px;
   overflow: hidden;
 }
 
