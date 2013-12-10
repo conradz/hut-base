@@ -1,6 +1,6 @@
 {
   "name": "hut-base",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Base styles for HTML UI Toolkit",
   "style": "index.css",
   "scripts": {
