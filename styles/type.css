@@ -1,24 +1,23 @@
 /* Fonts and other typographical settings */
 
 html {
-    font-family: var(font-family-base);
-    font-size: var(font-size-base);
-    line-height: var(line-height-base);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(font-family-heading);
-    font-weight: var(font-weight-heading);
-    line-height: var(line-height-heading);
+    font-weight: 500;
+    line-height: 1.2;
     margin: 20px 0 10px 0;
 }
 
-h1 { font-size: var(font-size-h1); }
-h2 { font-size: var(font-size-h2); }
-h3 { font-size: var(font-size-h3); }
-h4 { font-size: var(font-size-h4); }
-h5 { font-size: var(font-size-h5); }
-h6 { font-size: var(font-size-h6); }
+h1 { font-size: 2.6em; }
+h2 { font-size: 2.15em; }
+h3 { font-size: 1.7em; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+h6 { font-size: 0.85em; }
 
 p {
     margin: 0 0 10px 0;
@@ -26,6 +25,6 @@ p {
 
 hr {
     border: 0;
-    border-top: 1px solid var(hr-color);
+    border-top: 1px solid #CCC;
     height: 0;
 }

@@ -6,20 +6,20 @@ label {
 
 input {
     color: inherit;
-    background-color: var(input-color-default);
+    background-color: #FFF;
 
     font: inherit;
     /* line-height must be normal in Firefox, make it the same cross-browser */
     line-height: normal;
 
     outline: none;
-    border: 1px solid var(input-border-color-default);
-    border-radius: var(input-border-radius);
+    border: 1px solid #BBB;
+    border-radius: 3px;
 
-    padding: var(input-padding);
-    margin: 0 0 var(input-spacing) 0;
+    padding: 5px 10px;
+    margin: 0 0 5px 0;
 
-    transition: var(input-transition-time) border-color;
+    transition: 0.3s border-color;
 }
 
 input[type="checkbox"],
@@ -31,5 +31,5 @@ input[type="radio"] {
 }
 
 input:focus {
-    border-color: var(input-border-color-focus);
+    border-color: #666;
 }

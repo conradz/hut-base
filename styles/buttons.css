@@ -1,26 +1,26 @@
 button {
     border: none;
-    border-radius: var(button-radius);
+    border-radius: 4px;
 
-    padding: var(button-padding);
-    color: var(button-text-color);
-    background-color: var(button-color-default);
+    padding: 10px 20px;
+    color: #FFF;
+    background-color: #0093B8;
 
     font: inherit;
 
-    transition: background-color var(button-transition-time);
+    transition: background-color 0.3s;
 }
 
 button:hover,
 button.hover {
-    background-color: var(button-color-hover);
+    background-color: #0FC3F0;
 }
 
 button:active,
 button.active {
-    background-color: var(button-color-active);
+    background-color: #007A99;
 }
 
 button:disabled {
-    background-color: var(button-color-disabled);
+    background-color: #9FA3A5;
 }
