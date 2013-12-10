@@ -16,7 +16,11 @@ When using [rework-npm](https://github.com/conradz/rework-npm) simple install
 the package with `npm install hut-base` and reference it from your stylesheet
 with `@import "hut-base";`.
 
-## Settings
+## Customizing
 
-You can change many settings by overriding the variables declared in the
-`variables.css` file.
+This is meant to be used as a baseline style, not as a complete styling
+framework. You should create your own styling by overriding the styles for your
+own use. You can also change much of the styling by overriding the variables
+defined in the
+[`styles/variables.css`](https://github.com/conradz/hut-base/blob/master/styles/variables.css)
+file.
