@@ -20,4 +20,5 @@ with `@import "hut-base";`.
 
 This is meant to be used as a baseline style, not as a complete styling
 framework. You should create your own styling by overriding the styles for your
-own use where appropriate.
+own use where appropriate. This library tries to define the bare minimum for a
+nice appearance while normalizing cross-browser incompatibilities.

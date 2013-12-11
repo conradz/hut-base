@@ -6,20 +6,21 @@ label {
 
 input {
     color: inherit;
-    background-color: #FFF;
-
     font: inherit;
     /* line-height must be normal in Firefox, make it the same cross-browser */
     line-height: normal;
 
     outline: none;
-    border: 1px solid #BBB;
-    border-radius: 3px;
+    border: 1px solid #999;
 
-    padding: 5px 10px;
-    margin: 0 0 5px 0;
+    padding: 0.25em 0.5em;
+    margin: 0 0 0.5rem 0;
 
-    transition: 0.3s border-color;
+    transition: 0.2s border-color;
+}
+
+input:focus {
+    border-color: #666;
 }
 
 input[type="checkbox"],
@@ -28,8 +29,4 @@ input[type="radio"] {
     width: auto;
     padding: 0;
     border: none;
-}
-
-input:focus {
-    border-color: #666;
 }

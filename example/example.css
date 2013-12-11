@@ -1,17 +1,15 @@
 @import "../";
 
 body {
-    padding: 0 20px 10px 20px;
+    padding: 0 1rem 0.5rem 1rem;
     margin: 0 auto;
-    max-width: 720px;
+    max-width: 42rem;
     overflow: hidden;
 }
 
 .example {
-    padding: 10px 20px;
+    padding: 0.5rem 1rem;
     border: 1px solid #CCC;
-    background-color: #F6F6F6;
-    border-radius: 5px;
     position: relative;
     overflow: hidden;
 }
